@@ -1,0 +1,38 @@
+
+ 
+      body {
+        background-color: rgb(201, 96, 96)
+      }
+      
+      
+
+
+img, embed, object, video{
+    max-width: 100%; background: rgb(73, 73, 73);
+}
+
+nav, a, button{
+    min-width: 48px;
+    min-height: 48px;
+}
+
+
+
+@media screen and (max-width:500px) {
+
+    body {
+        background-color: rgb(80, 0, 0)
+      }
+
+        
+    }
+    h1 {
+        color: rgb(255, 255, 254);
+      }
+      form{
+        color: rgb(255, 255, 255);
+    }
+
+    h1{
+        font-family: "Lucida Handwriting", Times, serif;
+      }
